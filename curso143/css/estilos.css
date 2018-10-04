@@ -1,0 +1,88 @@
+body{
+  font: 15px; Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+/*Estilos Globales*/
+.contenedor{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.boton1{
+  height: 38px;
+  background-color: #e8491d;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+}
+
+/*Estilos encabezado*/
+header{
+  background-color: #24282b;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: 5px solid #1293d4;
+}
+
+header a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #marca{
+  float: left;
+}
+
+header #marca h1{
+  margin: 0;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .resaltado, header .actual a{
+  color: #1293d4;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #ccc;
+  font-weight: bold;
+}
+
+/*cabecera con imagen*/
+#cabecera{
+  min-height: 640px;
+  background: url('../img/cabecera800.png');
+  /*background: url('../img/cabeceraMaxi.png');*/
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+}
+
+#cabecera h2{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 20px;
+}
